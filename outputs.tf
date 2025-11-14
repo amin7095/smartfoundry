@@ -1,2 +1,2 @@
-output "app_ip" { value = aws_instance.host.public_ip }
-output "instance_id" { value = aws_instance.host.id }
+output "app_ip" { value = module.env.app_ip }
+output "instance_id" { value = module.env.instance_id }

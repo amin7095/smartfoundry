@@ -1,0 +1,16 @@
+variable "env_name" { type = string }
+variable "aws_region" { type = string }
+variable "vpc_id" { type = string }
+variable "subnet_id" { type = string }
+variable "instance_type" { type = string }
+variable "ssh_public_key" { type = string }
+variable "app_repo" { type = string }
+variable "app_branch" { type = string }
+variable "payment_mode" { type = string }
+variable "datadog_api_key" { type = string }
+variable "gremlin_team_id" { type = string }
+variable "gremlin_secret" { type = string }
+variable "db_username" { type = string }
+variable "db_password" { type = string }
+variable "dynamodb_table_name" { type = string }
+variable "tags" { type = map(string) }
