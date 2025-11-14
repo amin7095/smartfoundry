@@ -1,7 +1,7 @@
 terraform {
   cloud {
-    organization = "your-org"
-    workspaces { name = "env-on-demand" }
+    organization = "Smartfoundry-TES"
+    workspaces { name = "Smartfoundry-Env" }
   }
   required_providers {
     aws = { source = "hashicorp/aws", version = "~> 5.0" }
